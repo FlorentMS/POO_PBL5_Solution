@@ -22,3 +22,11 @@
 ### Class diagram
 
 ### Sequence diagram
+
+## Main corrected errors
+
+"private: System::Void btn_source_Click {"     **->**     "private: System::Void btn_source_Click(System::Object^ sender, System::EventArgs^ e) {"\
+"CLexplorateur.h"                              **->**     "CLfichier.h"\
+"array<String^>"                               **->**     "array<String^>^ "\
+"public ref class MyForm {"                    **->**     "public ref class MyForm : public System::Windows::Forms::Form {"\
+"return file;"                                 **->**     "return Directory::GetFiles(dossier);"
