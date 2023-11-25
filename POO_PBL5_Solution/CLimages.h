@@ -1,14 +1,12 @@
 #pragma once
-#include "CLimages.h"
 
-namespace NS_services
+using namespace System;
+namespace NS_composants
 {
-	ref class CLserviceImage
+	public ref class CLimages
 	{
-	private:
-		NS_composants::CLimages^ image;
 	public:
-		CLserviceImage(void);
-		System::Drawing::Bitmap^ lireImage(String^);
+		System::Drawing::Bitmap^ acquisitionImage(String^);
+		/*System::Drawing acquisitionImage(String^);*/
 	};
 }

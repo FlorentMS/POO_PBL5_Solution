@@ -18,7 +18,7 @@ namespace testWin {
 	/// <summary>
 	/// Description résumée de MyForm
 	/// </summary>
-	public ref class MyForm
+	public ref class MyForm : public System::Windows::Forms::Form
 	{
 	public:
 		MyForm(void)
@@ -114,8 +114,8 @@ namespace testWin {
 			   this->btn_first->Text = L"<<";
 			   this->btn_first->UseVisualStyleBackColor = true;
 			   // 
-// btn_previous
-// 
+			   // btn_previous
+			   // 
 			   this->btn_previous->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
 			   this->btn_previous->Location = System::Drawing::Point(91, 337);
@@ -330,7 +330,7 @@ namespace testWin {
 		this->nombreImages = 0;
 	}
 
-	private: System::Void btn_source_Click
+	private: System::Void btn_source_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		int i;
 

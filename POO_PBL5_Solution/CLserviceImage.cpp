@@ -6,6 +6,7 @@ namespace NS_services
 	{
 		this->image = gcnew NS_composants::CLimages();
 	}
+
 	System::Drawing::Bitmap^ CLserviceImage::lireImage(String^ image)
 	{
 		return this->image->acquisitionImage(image);

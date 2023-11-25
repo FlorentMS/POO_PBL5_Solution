@@ -8,7 +8,7 @@ namespace NS_composants
 	ref class CLfichier
 	{
 	public:
-		array<String^> explorerUnDossier(String^);
+		array<String^>^ CLfichier::explorerUnDossier(String^);
 		void effacer(String^);
 		void copier(String^, String^);
 	};

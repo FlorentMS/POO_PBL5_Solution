@@ -9,5 +9,5 @@ int __clrcall WinMain(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    /*POOPBL5Solution*/testWin::MyForm monFormulaire;
+    testWin::MyForm monFormulaire;
 }

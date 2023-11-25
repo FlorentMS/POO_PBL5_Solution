@@ -2,10 +2,9 @@
 
 namespace NS_composants
 {
-	/*array<String^> CLfichier::explorerUnDossier(String^ dossier)*/
 	array<String^>^ CLfichier::explorerUnDossier(String^ dossier)
 	{
-		return file;
+		return Directory::GetFiles(dossier);
 	}
 	void CLfichier::effacer(String^ fichier)
 	{
