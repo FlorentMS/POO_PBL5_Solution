@@ -30,3 +30,5 @@
 "array<String^>"                               **->**     "array<String^>^ "\
 "public ref class MyForm {"                    **->**     "public ref class MyForm : public System::Windows::Forms::Form {"\
 "return file;"                                 **->**     "return Directory::GetFiles(dossier);"
+"testWin::MyForm monFormulaire;"               **->**     "POO_PBL5_Solution::MyForm monFormulaire;  Application::Run(% monFormulaire);"
+"namespace testWin"                            **->**     "namespace POO_PBL5_Solution"
