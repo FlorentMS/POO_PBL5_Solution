@@ -15,13 +15,36 @@
 > &nbsp;&nbsp;&nbsp; CLfichier\
 > &nbsp;&nbsp;&nbsp; Climage
 
+
+
 ## Diagrams
 
-### Use case diagram
-
 ### Class diagram
+![/chemin/access/image.jpg "Titre de l'image"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/ec9f93bab2e7b932e3f515cfd8a6e7780ead359c/POO_PBL5_Class.drawio%20(1).png)
 
-### Sequence diagram
+### Sequence diagrams
+![/chemin/access/image.jpg "Diagram of the main part (launch)"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/ec9f93bab2e7b932e3f515cfd8a6e7780ead359c/POO_PBL5_Sequence_principal.drawio.png)  
+*Diagram of the main part (launch)*
+
+
+![/chemin/access/image.jpg "Titre de l'image"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/ec9f93bab2e7b932e3f515cfd8a6e7780ead359c/POO_PBL5_Sequence_btn_source.drawio%20(1).png)  
+*Diagram of a case for one of the button (source button)*
+
+
+Others case is similar but their is nothing yet in it.
+
+### Activities diagrams
+![/chemin/access/image.jpg "Titre de l'image"]()  
+*Diagram of the main part (launch)*
+
+
+![/chemin/access/image.jpg "Titre de l'image"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/ec9f93bab2e7b932e3f515cfd8a6e7780ead359c/POO_PBL5_Activities-btn_proceder_Click.drawio.png)  
+*Diagram of a particular case : procede button*
+
+
+Others case is similar but their is nothing yet in it.
+
+
 
 ## Main corrected errors        
 |                  Code erronné                 |      |                                  Code corrigé                                                 |
