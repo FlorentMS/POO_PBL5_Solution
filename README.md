@@ -27,14 +27,14 @@
 *Diagram of the main part (launch)*
 
 
-![/chemin/access/image.jpg "Titre de l'image"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/ec9f93bab2e7b932e3f515cfd8a6e7780ead359c/POO_PBL5_Sequence_btn_source.drawio%20(1).png)  
+![/chemin/access/image.jpg "Titre de l'image"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/138969e5489d301b13cf36ca79947b9b80f464ff/POO_PBL5_Sequence_btn_source.drawio%20(1).png)  
 *Diagram of a case for one of the button (source button)*
 
 
 Others case is similar but their is nothing yet in it.
 
 ### Activities diagrams
-![/chemin/access/image.jpg "Titre de l'image"]()  
+![/chemin/access/image.jpg "Titre de l'image"](https://github.com/FlorentMS/POO_PBL5_Solution/blob/138969e5489d301b13cf36ca79947b9b80f464ff/POO_PBL5_Activities-Main.drawio%20(1).png)  
 *Diagram of the main part (launch)*
 
 
