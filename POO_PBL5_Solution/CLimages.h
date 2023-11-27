@@ -7,6 +7,5 @@ namespace NS_composants
 	{
 	public:
 		System::Drawing::Bitmap^ acquisitionImage(String^);
-		/*System::Drawing acquisitionImage(String^);*/
 	};
 }

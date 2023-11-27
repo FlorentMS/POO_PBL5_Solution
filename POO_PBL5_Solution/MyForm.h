@@ -3,7 +3,7 @@
 #include "CLserviceFichier.h"
 #include "CLserviceImage.h"
 
-namespace testWin {
+namespace POO_PBL5_Solution {
 
 	using namespace System;
 	using namespace System::ComponentModel;
