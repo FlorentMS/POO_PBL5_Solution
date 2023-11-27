@@ -32,3 +32,4 @@
 "return file;"                                 **->**     "return Directory::GetFiles(dossier);"
 "testWin::MyForm monFormulaire;"               **->**     "POO_PBL5_Solution::MyForm monFormulaire;  Application::Run(% monFormulaire);"
 "namespace testWin"                            **->**     "namespace POO_PBL5_Solution"
+point d'entré : Main                           **->**     WinMain
