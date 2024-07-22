@@ -47,13 +47,13 @@ Others case is similar but their is nothing yet in it.
 
 
 ## Main corrected errors        
-|                  Code erronné                 |      |                                  Code corrigé                                                 |
-|:----------------------------------------------|:----:|----------------------------------------------------------------------------------------------:|
-|"private: System::Void btn_source_Click {"     |**->**|     "private: System::Void btn_source_Click(System::Object^ sender, System::EventArgs^ e) {"  |
-|"CLexplorateur.h"                              |**->**|     "CLfichier.h"                                                                             |
-|"array<String^>"                               |**->**|     "array<String^>^ "                                                                        |
-|"public ref class MyForm {"                    |**->**|     "public ref class MyForm : public System::Windows::Forms::Form {"                         |
-|"return file;"                                 |**->**|     "return Directory::GetFiles(dossier);"                                                    |
-|"testWin::MyForm monFormulaire;"               |**->**|     "POO_PBL5_Solution::MyForm monFormulaire;  Application::Run(% monFormulaire);"            |
-|"namespace testWin"                            |**->**|     "namespace POO_PBL5_Solution"                                                             |
-|point d'entré : Main                           |**->**|     WinMain                                                                                   |
+|                  Code erronné                 |                                  Code corrigé                                                 |
+|:----------------------------------------------|----------------------------------------------------------------------------------------------:|
+|"private: System::Void btn_source_Click {"     |     "private: System::Void btn_source_Click(System::Object^ sender, System::EventArgs^ e) {"  |
+|"CLexplorateur.h"                              |     "CLfichier.h"                                                                             |
+|"array<String^>"                               |     "array<String^>^ "                                                                        |
+|"public ref class MyForm {"                    |     "public ref class MyForm : public System::Windows::Forms::Form {"                         |
+|"return file;"                                 |     "return Directory::GetFiles(dossier);"                                                    |
+|"testWin::MyForm monFormulaire;"               |     "POO_PBL5_Solution::MyForm monFormulaire;  Application::Run(% monFormulaire);"            |
+|"namespace testWin"                            |     "namespace POO_PBL5_Solution"                                                             |
+|point d'entré : Main                           |     WinMain                                                                                   |
